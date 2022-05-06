@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -9,10 +10,144 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Корзина"
+        android:textAlignment="center"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#E69FFF"
+        android:text="Оплатить покупку"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="648dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/c1"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1500 рублей"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="309dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="950 рублей"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#B503AD"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="-"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#B503AD"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="-"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#B503AD"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="+"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#B503AD"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="+"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="327dp"
+        android:layout_height="167dp"
+        app:srcCompat="@drawable/c2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="383dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
